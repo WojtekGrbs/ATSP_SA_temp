@@ -1,5 +1,5 @@
-# Asymmetric Travelling Salesman Problem optimization project
-Authors:
+# Asymmetric Travelling Salesman Problem - Projekt optymalizacyjny
+Autorzy: [Natalia Safiejko] (https://github.com/ssafiejko), [Piotr Kosakowski](https://github.com/piotr-kosakowski), [Krzysztof Sawicki](https://github.com/SawickiK), [Kacper Wnęk](https://github.com/KacWNK), [Wojciech Grabias](https://github.com/WojtekGrbs)
 # Opis problemu
 Problem asymetrycznego komiwojażera polega na znalezieniu najkrótszej trasy dla podróżującego handlowca, gdzie odległość między dwoma miastami może się różnić w zależności od kierunku podróży. Jest to rozszerzenie klasycznego problemu komiwojażera, które wprowadza dodatkowe wyzwania związane z nierównością kosztów podróży w poszczególnych kierunkach.
 # Podejście optymalizacyjne i jego implementacja
