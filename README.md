@@ -18,14 +18,14 @@ Zespół projektowy zaimplementował algorytm symulowanego wyżarzania, gdzie pr
 Skrypt wykorzystywany podczas wyścigu organizowanego na zajęciach laboratoryjnych to ```Race_script.py```. W ramach wyścigu grupa ustaliła dwa zestawy optymalnych parametrów, między którymi można przełączać się zmieniając parametr ```fast_mode``` funkcji ```simulated_annealing```.
 #### Wyniki wyścigu
 ##### ftv38.atsp
-Wynik: 1652
-Optymalny wynik: 1530
+Wynik: 1652\\
+Optymalny wynik: 1530\\\
 Miejsce: 2
 ##### ft70.atsp
-Wynik: 40286
-Optymalny wynik: 38673
+Wynik: 40286\\
+Optymalny wynik: 38673\\
 Miejsce: 2
 ##### rbg403.atsp
-Wynik: 7019
-Optymalny wynik: 2465
+Wynik: 7019\\
+Optymalny wynik: 2465\\
 Miejsce: 3
