@@ -1,10 +1,10 @@
 import threading
 from time import time
 
-from Comparison.TP_SA.src.Code.cooling import cooling
-from Comparison.TP_SA.src.Code.initialization import initialization
-from Comparison.TP_SA.src.Code.metropolis_transition import metropolis_transition
-from Comparison.TP_SA.src.Code.replica_transition import replica_transition
+from TP_SA.src.Code.cooling import cooling
+from TP_SA.src.Code.initialization import initialization
+from TP_SA.src.Code.metropolis_transition import metropolis_transition
+from TP_SA.src.Code.replica_transition import replica_transition
 
 
 def update_state(

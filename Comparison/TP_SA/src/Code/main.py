@@ -1,8 +1,8 @@
 import time
 
-from Comparison.TP_SA.src.Code.pt_sa import pt_sa
-from Comparison.TP_SA.src.Parameters.best_known_solution import best_known_solution
-from Comparison.TP_SA.src.Parameters.problems import problems
+from TP_SA.src.Code.pt_sa import pt_sa
+from TP_SA.src.Parameters.best_known_solution import best_known_solution
+from TP_SA.src.Parameters.problems import problems
 
 
 def set_parameters(exec_time: float) -> dict:
