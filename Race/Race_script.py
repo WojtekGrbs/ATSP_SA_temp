@@ -5,7 +5,8 @@ from Core.ATSP_file_reader import read_atsp_file
 
 '''
 Skrypt realizowany w ramach wyścigu. Funkcja simulated_annealing posiada wcześniej ustawione default'owe parametry
-na podstawie wcześniejszych testów.
+na podstawie wcześniejszych testów. Parametr fast_mode przełącza tryb na szybkie chłodzenie, przyjmując taktykę 
+wielokrotnego wywołania algorytmu.
 '''
 
 def linear_decrease(Top_T, T, iteration, cool_parameter):
@@ -14,10 +15,12 @@ def linear_decrease(Top_T, T, iteration, cool_parameter):
 def gaussian_probability(delta_e, temperature, prob_parameter):
     return math.exp(-(delta_e ** 2) / (2 * (prob_parameter ** 2) * temperature))
 
-def simulated_annealing(file_name, T_init=15000, T_function=linear_decrease(), cool_parameter=0.999999,
+def simulated_annealing(file_name, T_init=15000, T_function=linear_decrease, cool_parameter=0.999999,
                         Prob_function=gaussian_probability, prob_parameter=3,
-                        break_point=0.01,  race_mode=True):
-
+                        break_point=0.01,  race_mode=True, fast_mode=False):
+    if not fast_mode:
+        cool_parameter = 0.99999
+        prob_parameter = 0.4
     # Funkcja zwracająca koszt dla danego rozwiązania
     def oblicz_koszt(rozwiazanie, odleglosc):
         # Zwracamy sumę odległości między kolejnymi miastami w rozwiązaniu
