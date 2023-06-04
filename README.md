@@ -13,7 +13,7 @@ Zespół projektowy zaimplementował algorytm symulowanego wyżarzania, gdzie pr
 2. Za pomocą skryptu ```1_Gridsearch.py``` uzyskiwane były kolejne wyniki parametrów dla ustalonego zestawu plików-problemów, które zapisywane były w rozszerzeniu ```.csv```
 3. Przy pomocy skryptu ```2_najlepszy_zestaw.py``` dla ustalonego problemu tworzony był ranking zestawów parametrów, które pozwoliły wyłonić globalnie najlepszy układ.
 #### Wizualizacje
-Wykorzystane w raporcie wizualizacje można jednocześnie zaobserwować, jak i zrekonstruować przy pomocy notatnika ````wykresy.ipynb```
+Wykorzystane w raporcie wizualizacje można jednocześnie zaobserwować, jak i zrekonstruować przy pomocy notatnika ```wykresy.ipynb```
 # Wyścig
 #### Program
 Skrypt wykorzystywany podczas wyścigu organizowanego na zajęciach laboratoryjnych to ```Race_script.py```. W ramach wyścigu grupa ustaliła dwa zestawy optymalnych parametrów, między którymi można przełączać się zmieniając parametr ```fast_mode``` funkcji ```simulated_annealing```.
